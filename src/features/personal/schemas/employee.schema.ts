@@ -74,5 +74,6 @@ export const employeeSchema = z
             path: ["confirmPassword"],
         },
     );
+    
     export type EmployeeFormInput = z.input<typeof employeeSchema>;
     export type EmployeeFormValues = z.output<typeof employeeSchema>;

@@ -1,3 +1,4 @@
+import EmailForm from "./features/personal/components/EmailForm";
 import { EmployeeForm } from "./features/personal/components/EmployeeForm";
 import { PersonalForm } from "./features/personal/components/PersonalForm";
 
@@ -7,6 +8,7 @@ export default function App() {
       <div className="mx-auto flex w-full max-w-3xl flex-col items-center gap-8 sm:gap-12">
         <PersonalForm />
         <EmployeeForm />
+        <EmailForm/>
       </div>
     </main>
   );
